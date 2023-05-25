@@ -21,12 +21,12 @@ public class PollWithoutMethod {
         };
         for (int first = 0; first < Que.length; first = first + 2) {
             System.out.println(Que[first][0]);
-            for (int second = 1; second < Que[first].length; second = second + 2) {
-                System.out.println(Que[second][Que.length]);
-                // System.out.print(Que[second + 1][0]);
-                // System.out.print(Que[second + 1][1]);
-                // System.out.print(Que[second + 1][2]);
-                // System.out.print(Que[second + 1][3]);
+            for (int second = 0; second < Que[first].length; second = second + 2) {
+                // System.out.println(Que[second][Que.length]);
+                System.out.print(Que[second + 1][0]);
+                System.out.print(Que[second + 1][1]);
+                System.out.print(Que[second + 1][2]);
+                System.out.print(Que[second + 1][3]);
                 String anw = myOjt.nextLine();
                 System.out.println("답) " + anw);
                 answer[con] = anw;
