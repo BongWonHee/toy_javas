@@ -1,26 +1,47 @@
 
 package polls;
-
+import polls.PollInitailArray;
+import polls.PollStatistics;
 import java.util.Scanner;
 
 public class PollScanners {
-    int reply = 0;
+    public int scanners(int y) {
+        int x = 0 ;
+        
+        try {
+            Scanner my = new Scanner(System.in);
+            
+             y = my.nextInt();
+            x = y;
 
-    public  PollScanners() {
-    } // PollScanners 초기화
+            // PollInitailArray Array = new PollInitailArray();
+            // Array.Arrays(x);
+           
 
-    // public PollScanners(int anw) {
-    //     Scanner myOjt = new Scanner(System.in);
-    //     anw = myOjt.nextInt();
-    //     this.reply = anw;
-    //     System.out.println("답 :" + anw);
-    // }
-public int Getreply (int anw) {
-    Scanner myOjt = new Scanner(System.in);
-        anw = myOjt.nextInt();
-        this.reply = anw;
-return this.reply;
-}}
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        return x;
+    }
+}
+// int reply = 0;
+
+// public PollScanners() {
+// } // PollScanners 초기화
+
+// // public PollScanners(int anw) {
+// // Scanner myOjt = new Scanner(System.in);
+// // anw = myOjt.nextInt();
+// // this.reply = anw;
+// // System.out.println("답 :" + anw);
+// // }
+// public int Getreply(int anw) {
+// Scanner myOjt = new Scanner(System.in);
+// anw = myOjt.nextInt();
+// this.reply = anw;
+// return this.reply;
+// }
+// }
 // Scanner myOjt//name =myOjt
 // String [] answer
 // 정답입력->넘어간다, string[]answer 넣어줌.

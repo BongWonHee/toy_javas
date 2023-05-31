@@ -1,20 +1,24 @@
 package polls;
 
+import polls.PollScanners;
+
 public class PollStatistics {
     public String print(int x) {
         String answer = "";
-          // 스캔으로 입력한 값 1~4 까지 제한된 값으로 결과를 출력한다.
+        // 스캔으로 입력한 값 1~4 까지 제한된 값으로 결과를 출력한다.
         try {
-            if (x == 1 ) {
+            if (x == 1) {
                 answer = "(1)전혀아니다.";
-            }else if ( x == 2 ){
+            } else if (x == 2) {
                 answer = "(2)아니다.";
-            }else if ( x == 3 ){
+            } else if (x == 3) {
                 answer = "(3)그렇다.";
-            }else if ( x == 4){
+            } else if (x == 4) {
                 answer = "(4)매우 그렇다.";
             }
-
+            // PollScanners scanners = new PollScanners();
+            // scanners.scanners(x);
+            System.out.println(answer);
         } catch (
 
         Exception e) {
