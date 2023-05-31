@@ -5,7 +5,8 @@ import polls.PollScanners;
 public class PollStatistics {
     public String print(int x) {
         String answer = "";
-        // 스캔으로 입력한 값 1~4 까지 제한된 값으로 결과를 출력한다.
+        // PollinitailArray 에서 입력 받은 값을 출력 한다.
+        
         try {
             if (x == 1) {
                 answer = "(1)전혀아니다.";
