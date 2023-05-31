@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PollScanners {
     int reply = 0;
 
-    public PollScanners() {
+    public  PollScanners() {
     } // PollScanners 초기화
 
     public PollScanners(int anw) {
