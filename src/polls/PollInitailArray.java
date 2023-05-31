@@ -13,13 +13,14 @@ public class PollInitailArray {
                 "2.강의의 내용은 체계적이고 성의있게 구성되었는가?",
                 "3.교수는 강의 내용에 대해 전문적 지식이 있었는가?",
                 "4.강의 진행 속도는 적절하였는가?" };
-
+        String answer = ("(1)전혀아니다.  (2)아니다.  (3)그렇다.  (4)매우 그렇다.");
         try {
 
             for (int i = 0; i < Que.length; i++) {
-                
-                System.out.println(Que[i]); //해당 질문을 프린트 후에
-                int print = scanner.scanners(x);//  scanners 에 값을 받는다.
+
+                System.out.println(Que[i]); // 해당 질문을 프린트 한다.
+                System.out.println(answer);
+                int print = scanner.scanners(x);// scanners 에 값을 받는다.
                 statistics.print(print);// scanners에서 받은 값을 PollStatistics 로 넘겨준다.
 
             }
