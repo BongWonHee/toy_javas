@@ -1,6 +1,6 @@
 package polls;
 
-import polls.PollScanners;
+// import polls.PollScanners;
 
 public class PollStatistics {
     public String print(int x) {

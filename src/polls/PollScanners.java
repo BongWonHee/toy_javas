@@ -16,7 +16,8 @@ public class PollScanners {
 
             // PollInitailArray Array = new PollInitailArray();
             // Array.Arrays(x);
-            
+           PollStatistics statistics = new PollStatistics();
+           statistics.print(x);
 
         } catch (Exception e) {
             // TODO: handle exception
