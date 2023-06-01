@@ -37,7 +37,6 @@ public class PollInitailArray {
                 
 
             }
-
         } catch (Exception e) {
             // TODO: handle exception
         }
