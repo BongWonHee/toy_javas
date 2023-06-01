@@ -16,7 +16,11 @@ public class PollStatistics {
                 answer = "(3)그렇다.";
             } else if (x == 4) {
                 answer = "(4)매우 그렇다.";
+            } 
+            else {
+                System.out.println("없는 답항입니다.");
             }
+
             // PollScanners scanners = new PollScanners();
             // scanners.scanners(x);
             System.out.println(answer);

@@ -7,7 +7,7 @@ public class PollInitailArray {
 
     public String[][] Arrays(int x) {
         PollScanners scanner = new PollScanners();
-        PollStatistics statistics = new PollStatistics();
+        // PollStatistics statistics = new PollStatistics();
         Scanner myOjt = new Scanner(System.in); 
         System.out.println("이름이 입력하세요");
         String name = myOjt.nextLine();
