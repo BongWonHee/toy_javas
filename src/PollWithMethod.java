@@ -8,9 +8,9 @@ public class PollWithMethod {
     public static void main(String[] args) {
         int x = 0;
         
-        PollScanners scanners = new PollScanners();
+        // PollScanners scanners = new PollScanners();
         PollInitailArray array = new PollInitailArray();
-        PollStatistics statistics = new PollStatistics();
+        // PollStatistics statistics = new PollStatistics();
         try {
             
             

@@ -27,7 +27,9 @@ public class PollInitailArray {
                 // System.out.println(answer);
                 System.out.println(Que[1][0]);
                 int print = scanner.scanners(x);// scanners 에 값을 받는다.
-                statistics.print(print);// scanners에서 받은 값을 PollStatistics 로 넘겨준다.
+                // statistics.print(print);// scanners에서 받은 값을 PollStatistics 로 넘겨준다.
+                // scanner에서 받은 값을 가지고 Scanners에서 PollStatistics로 값을 던져준다. 
+                
 
             }
 
