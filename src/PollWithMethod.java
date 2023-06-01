@@ -28,7 +28,7 @@ public class PollWithMethod {
         } catch (Exception e) {
             // TODO: handle exception
         } // return 0 ;
-        // System.out.println("설문종료");
+        System.out.println(" --- 설문종료 --- "); 
     } 
     
 }

@@ -40,7 +40,7 @@ public class PollInitailArray {
         } catch (Exception e) {
             // TODO: handle exception
         }
-        System.out.println(" --- 설문 종료 ---");
+        // System.out.println(" --- 설문 종료 ---");
         
        
        
