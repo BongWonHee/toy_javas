@@ -7,8 +7,9 @@ public class PollWithoutMethod {
         System.out.println("이름을 입력하세요");
         String name = myOjt.nextLine();
         System.out.println("이름) " + name);
-        String[] answer = { "", "", "", "" };
         int con = 0;
+        String[] answer = { "", "", "", "" };
+
         String[][] Que = {
                 { "1.교수는 수업 전 강의 목표를 명확히 제시하였습니까?" },
                 { "(1)전혀 아니다 (2)아니다. (3)그렇다. (4)매우그렇다." },
@@ -33,13 +34,12 @@ public class PollWithoutMethod {
                 con = con + 1;
 
             }
-           
+
         }
         System.out.println("----------- 설 문 종 료 ----------");
         System.out.println("----------- 결 과 출 력 ----------");
         for (int th = 0; th < answer.length; th = th + 1)
             System.out.print(answer[th] + ",");
-
 
         System.out.println();
     }
