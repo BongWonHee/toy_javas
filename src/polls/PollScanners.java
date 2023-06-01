@@ -22,6 +22,7 @@ public class PollScanners {
         } catch (Exception e) {
             // TODO: handle exception
         }
+        
         return x;
     }
 }
