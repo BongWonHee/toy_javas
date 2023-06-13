@@ -1,5 +1,5 @@
 package terminalpolls;
 
-public class Polllost {
+public class Polllist {
     
 }

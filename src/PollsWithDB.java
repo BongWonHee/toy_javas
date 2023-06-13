@@ -17,6 +17,7 @@ public class PollsWithDB {
 
             // - query Edit
             Statement statement = connection.createStatement(); // DB자원
+            
     } catch (Exception e) {
         // TODO: handle exception
     }
