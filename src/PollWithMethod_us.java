@@ -18,7 +18,7 @@ public class PollWithMethod_us {
             PollScanners_us pollScanners_us = new PollScanners_us();
             pollScanners_us.pollwhitAnswers(polls);
             PollStatistics_us pollStatistics_us = new PollStatistics_us();
-            pollStatistics_us.printAnswers(answer);
+            // pollStatistics_us.printAnswers();
         } catch (
 
         Exception e) {
